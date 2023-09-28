@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountingSort",
+            "request": "launch",
+            "mainClass": "Accenture_Practice.CountingSort",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "InsertionSort",
             "request": "launch",
             "mainClass": "Accenture_Practice.InsertionSort",
