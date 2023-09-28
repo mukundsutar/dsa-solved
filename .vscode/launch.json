@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "Accenture_Practice.InsertionSort",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "Accenture_Practice.SelectionSort",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "Accenture_Practice.BubbleSort",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "TripletSum",
+            "request": "launch",
+            "mainClass": "Accenture_Practice.TripletSum",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "MaxProfit",
+            "request": "launch",
+            "mainClass": "Accenture_Practice.MaxProfit",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "FindRotatedNumber",
+            "request": "launch",
+            "mainClass": "Accenture_Practice.FindRotatedNumber",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "ArrayDuplicate",
+            "request": "launch",
+            "mainClass": "Accenture_Practice.ArrayDuplicate",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "AddDigits",
             "request": "launch",
             "mainClass": "Accenture_Practice.AddDigits",
