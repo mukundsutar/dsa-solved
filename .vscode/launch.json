@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AddDigits",
+            "request": "launch",
+            "mainClass": "Accenture_Practice.AddDigits",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "EvenOdd",
+            "request": "launch",
+            "mainClass": "Accenture_Practice.EvenOdd",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "ComputeAverage",
+            "request": "launch",
+            "mainClass": "Accenture_Practice.ComputeAverage",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Bill",
+            "request": "launch",
+            "mainClass": "Accenture_Practice.Bill",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "AreaSquare",
+            "request": "launch",
+            "mainClass": "Accenture_Practice.AreaSquare",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Average",
+            "request": "launch",
+            "mainClass": "Accenture_Practice.Average",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "ValidParentheses",
             "request": "launch",
             "mainClass": "Leetcode.ValidParentheses",
