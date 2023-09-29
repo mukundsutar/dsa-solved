@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LowerCaseVowel",
+            "request": "launch",
+            "mainClass": "Accenture_Practice.LowerCaseVowel",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "CountNegativeNumbers",
+            "request": "launch",
+            "mainClass": "Leetcode.CountNegativeNumbers",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "DeleteGreatestValueRow",
+            "request": "launch",
+            "mainClass": "Leetcode.DeleteGreatestValueRow",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "MatrixDiagonalSum",
+            "request": "launch",
+            "mainClass": "Leetcode.MatrixDiagonalSum",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "MatrixTranspose",
+            "request": "launch",
+            "mainClass": "Accenture_Practice.MatrixTranspose",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "PrintSumRow",
             "request": "launch",
             "mainClass": "Accenture_Practice.PrintSumRow",
