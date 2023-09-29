@@ -3,8 +3,6 @@ package Accenture_Practice;
 public class TripletSum {
     public static void findTriplet(int nums[]) {
         int arrLength = nums.length;
-        int output[] = {};
-        int count = 0;
         String printStr = "";
 
         for (int i = 0; i < arrLength; i++) {

@@ -7,6 +7,7 @@ public class Fibonacci {
         } else if(n==1){
             return 1;
         }
+        
         int sum;
         return sum= fib(n-1) + fib(n-2);
     }

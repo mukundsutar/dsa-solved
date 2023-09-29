@@ -24,5 +24,7 @@ public class HollowRectangle {
         int column = sc.nextInt();
 
         hollowRect(row, column);
+
+        sc.close();
     }
 }

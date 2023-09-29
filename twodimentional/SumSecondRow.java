@@ -1,7 +1,5 @@
 package twodimentional;
 
-import Arrays.Subarrays;
-
 public class SumSecondRow {
     public static int printSum(int matrix[][]) {
         int sum = 0;

@@ -1,7 +1,5 @@
 package Leetcode;
 
-import javax.management.relation.Role;
-
 public class ValidSudoku {
     public static boolean validSudokuSolver(String board[][]) {
         int row;

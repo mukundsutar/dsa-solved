@@ -10,5 +10,7 @@ public class inputoutput {
 
         System.out.println(n*2);
         System.out.println(str);
+
+        sc.close();
     }
 }

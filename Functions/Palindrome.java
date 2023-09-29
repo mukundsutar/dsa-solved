@@ -38,5 +38,7 @@ public class Palindrome {
         int num = sc.nextInt();
 
         System.out.println(isPalindrome(num));
+
+        sc.close();
     }
 }

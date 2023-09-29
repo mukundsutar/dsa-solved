@@ -12,5 +12,7 @@ public class Average {
         float avg = (a + b + c) / 3;
 
         System.out.println("Average of " + a + ", " + b + ", " + c + " is " + avg + ".");
+
+        sc.close();
     }
 }

@@ -12,5 +12,7 @@ public class temperature {
         } else {
             System.out.println("No Fever");
         }
+
+        sc.close();
     }
 }

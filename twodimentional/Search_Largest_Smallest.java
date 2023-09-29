@@ -57,5 +57,7 @@ public class Search_Largest_Smallest {
         //Search
         search(matrix, 5);
         largeAndSmall(matrix);
+
+        sc.close();
     }
 }

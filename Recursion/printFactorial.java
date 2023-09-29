@@ -1,7 +1,5 @@
 package Recursion;
 
-import javax.swing.plaf.synth.SynthSpinnerUI;
-
 public class printFactorial {
     public static int printFact(int n) {
         int calc = 0;

@@ -8,5 +8,7 @@ public class AreaSquare {
         float side = sc.nextFloat();
 
         System.out.println("Area of Square " + (side * side));
+
+        sc.close();
     }
 }

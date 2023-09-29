@@ -19,5 +19,7 @@ public class Bill {
         float total = sum * (1 + 0.18f);
 
         System.out.println("Your total bill generated is: " + total);
+
+        sc.close();
     }
 }

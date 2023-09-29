@@ -32,5 +32,7 @@ public class weekday {
             default:
                 System.out.println("Enter a valid weekday number.");
         }
+
+        sc.close();
     }
 }

@@ -1,7 +1,5 @@
 package Leetcode;
 
-import java.util.Scanner;
-
 public class ConcatinateTwoArrays {
     public static void concatinate(int nums[]) {
         int n = nums.length * 2;

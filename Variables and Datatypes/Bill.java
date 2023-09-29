@@ -15,5 +15,7 @@ public class Bill {
         float total = gst + subtotal;
 
         System.out.println("Your Bill: " + total);
+
+        sc.close();
     }
 }

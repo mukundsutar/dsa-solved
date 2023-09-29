@@ -16,5 +16,7 @@ public class EvenOdd {
         int number = sc.nextInt();
 
         System.out.println(isEven(number));
+
+        sc.close();
     }
 }

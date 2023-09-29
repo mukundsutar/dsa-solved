@@ -88,6 +88,8 @@ public class hangman {
             System.out.println("--------------------");//next new input
             System.out.println();
         }
+
+        sc.close();
     }
 
     public static void main(String[] args) {

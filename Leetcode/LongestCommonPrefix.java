@@ -3,7 +3,7 @@ package Leetcode;
 public class LongestCommonPrefix {
     public static void common(String strs[]) {
         StringBuilder prefix_1 = new StringBuilder();
-        String prefix_2="";
+        // String prefix_2="";  -->
 
         // if(strs.length==1){
         //     return prefix_2= strs[1];
