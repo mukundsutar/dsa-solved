@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConvertTemperature",
+            "request": "launch",
+            "mainClass": "Leetcode.ConvertTemperature",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "RemoveElement",
+            "request": "launch",
+            "mainClass": "Leetcode.RemoveElement",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "PlusOne",
+            "request": "launch",
+            "mainClass": "Leetcode.PlusOne",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "isPangram",
             "request": "launch",
             "mainClass": "Leetcode.isPangram",
