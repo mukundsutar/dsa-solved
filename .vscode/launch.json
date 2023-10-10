@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "isPangram",
+            "request": "launch",
+            "mainClass": "Leetcode.isPangram",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "JewelsStones",
+            "request": "launch",
+            "mainClass": "Leetcode.JewelsStones",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "PhoneNumbers",
+            "request": "launch",
+            "mainClass": "Hackerrank.PhoneNumbers",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "Hackerrank.test",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "ShuffleString",
             "request": "launch",
             "mainClass": "Accenture_Practice.ShuffleString",
