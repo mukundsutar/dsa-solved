@@ -2,57 +2,40 @@ package Leetcode;
 
 public class RotateImage {
     public static void rotate(int matrix[][]) {
-        int rotatedMat[][] = new int[matrix.length][matrix[0].length];
-
-        int len = matrix.length - 1;
-        int arr[] = new int[matrix.length * matrix.length];
-        int count = 0;
-
-        for (int i = len; i >= 0; i--) {
-            for (int j = 0; j <= len; j++) {
-                if (arr[count] < len * len) {
-                    arr[count] = matrix[i][j];
-                }
-                count++;
+        int len = matrix.length; // This is n * n matrix so, we don't need column length
+        // First we have to convert row --> column
+        for (int i = 0; i < len; i++) {
+            for (int j = i; j < len; j++) {
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[j][i];
+                matrix[j][i] = temp;
             }
         }
 
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[0].length; j++) {
-                matrix[i][j] = arr[3+j];
-                count++;
+        // now we have to reverse the array.
+        for (int i = 0; i < len; i++) {
+            for (int j = 0; j < len / 2; j++) {
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[i][len - 1 - j];
+                matrix[i][len - 1 - j] = temp;
             }
         }
 
-        boolean flag = false;
-
-        printArray(matrix, arr, true);
+        printArray(matrix);
     }
 
-    public static void printArray(int matrix[][], int arr[], boolean flag) {
-        if (flag == true) {
-            System.out.print("{");
+    public static void printArray(int matrix[][]) {
+        System.out.print("{");
 
-            for (int i = 0; i < matrix.length; i++) {
-                System.out.print("[");
-                for (int j = 0; j < matrix[0].length; j++) {
-                    System.out.print(matrix[i][j] + " ");
-                }
-                System.out.print("]");
-            }
-
-            System.out.println("}");
-
-        } else {
+        for (int i = 0; i < matrix.length; i++) {
             System.out.print("[");
-
-            for (int i = 0; i < arr.length; i++) {
-                System.out.print(arr[i] + " ");
+            for (int j = 0; j < matrix[0].length; j++) {
+                System.out.print(matrix[i][j] + " ");
             }
-
-            System.out.println("]");
+            System.out.print("]");
         }
 
+        System.out.println("}");
     }
 
     public static void main(String[] args) {
