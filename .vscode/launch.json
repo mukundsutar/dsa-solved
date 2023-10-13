@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RotateImage",
+            "request": "launch",
+            "mainClass": "Leetcode.RotateImage",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "AddTwoNumbers",
+            "request": "launch",
+            "mainClass": "Leetcode.AddTwoNumbers",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "SmallestEvenMultiple",
+            "request": "launch",
+            "mainClass": "Leetcode.SmallestEvenMultiple",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "FizzBuzz",
+            "request": "launch",
+            "mainClass": "Leetcode.FizzBuzz",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "ConvertTemperature",
             "request": "launch",
             "mainClass": "Leetcode.ConvertTemperature",
