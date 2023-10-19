@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class Bill {
     public static void main(String args[]) {
-        Scanner in = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        float pencil = in.nextInt();
-        float pen = in.nextInt();
-        float eraser = in.nextInt();
+        float pencil = sc.nextInt();
+        float pen = sc.nextInt();
+        float eraser = sc.nextInt();
 
         float subtotal = pencil + pen + eraser;
 
