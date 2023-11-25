@@ -1,6 +1,6 @@
 package TechMahindra_Practice;
 
-public class Rhombus {
+public class HollowRhombus {
     public static void main(String[] args) {
         int len = 4;
 
