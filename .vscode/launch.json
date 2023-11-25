@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GarbageTruck",
+            "request": "launch",
+            "mainClass": "Leetcode.GarbageTruck",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "SumOfRemainders",
+            "request": "launch",
+            "mainClass": "Test.SumOfRemainders",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "ValidIPAddress",
             "request": "launch",
             "mainClass": "Leetcode.ValidIPAddress",
