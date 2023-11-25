@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Butterfly",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.Butterfly",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "Diamond",
             "request": "launch",
             "mainClass": "TechMahindra_Practice.Diamond",
