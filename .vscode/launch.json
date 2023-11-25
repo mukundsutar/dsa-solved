@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Rhombus",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.Rhombus",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "Butterfly",
             "request": "launch",
             "mainClass": "TechMahindra_Practice.Butterfly",
