@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Diamond",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.Diamond",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "TwoTri",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.TwoTri",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "UpsideDownEquiLatTri",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.UpsideDownEquiLatTri",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "EquiLatTri",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.EquiLatTri",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "RightDecreasingTri",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.RightDecreasingTri",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "TriPattern",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.TriPattern",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "RightIncreasingTri",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.RightIncreasingTri",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "DecrasingTri",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.DecrasingTri",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "IncreasingTri",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.IncreasingTri",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.Fibonacci",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "P_Pyramid",
             "request": "launch",
             "mainClass": "TechMahindra_Practice.P_Pyramid",
