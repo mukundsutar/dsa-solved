@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "P_Pyramid",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.P_Pyramid",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "P_FloydTri",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.P_FloydTri",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "P_InvertedTri",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.P_InvertedTri",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "P_HollowRect",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.P_HollowRect",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "P_Rectangle",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.P_Rectangle",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "P_UpsideDownTri",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.P_UpsideDownTri",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "PatternAlphabets",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.PatternAlphabets",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "PatternReverseTri",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.PatternReverseTri",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Pattern1010",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.Pattern1010",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Pattern1234",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.Pattern1234",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "GarbageTruck",
             "request": "launch",
             "mainClass": "Leetcode.GarbageTruck",
