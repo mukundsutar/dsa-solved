@@ -1,4 +1,4 @@
-package TechMahindra_Practice;
+package TechMahindra_Practice.Pattern;
 
 public class P_1234 {
     public static void main(String[] args) {

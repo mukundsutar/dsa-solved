@@ -1,4 +1,4 @@
-package TechMahindra_Practice;
+package TechMahindra_Practice.Pattern;
 
 public class TwoTri {
     public static void main(String[] args) {

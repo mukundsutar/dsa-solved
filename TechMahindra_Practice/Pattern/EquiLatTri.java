@@ -1,16 +1,15 @@
-package TechMahindra_Practice;
+package TechMahindra_Practice.Pattern;
 
-public class TriPattern {
+public class EquiLatTri {
     public static void main(String[] args) {
         int len = 5;
 
         for (int i = 1; i <= len; i++) {
             for (int j = len; j >= i; j--) {
-                System.out.print("  "); // 0 space for left increasing tri, 1 space for equi tri, 2 space for right
-                                      // increasing tri
+                System.out.print("  ");
             }
 
-            for (int j = 1; j <= i; j++) {
+            for (int j = 1; j <= i * 2 - 1; j++) {
                 System.out.print("* ");
             }
 

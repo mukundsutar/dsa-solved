@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Basics",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.Classes.Basics",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "Rhombus",
             "request": "launch",
             "mainClass": "TechMahindra_Practice.Rhombus",
