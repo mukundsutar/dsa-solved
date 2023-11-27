@@ -8,6 +8,27 @@
             "type": "java",
             "name": "Basics",
             "request": "launch",
+            "mainClass": "TechMahindra_Practice.Classes2.Basics",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Tri",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.Pattern2.Tri",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Prime",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.Prime",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Basics",
+            "request": "launch",
             "mainClass": "TechMahindra_Practice.Classes.Basics",
             "projectName": "Java_72da403b"
         },
