@@ -1,8 +1,13 @@
 package TechMahindra_Practice.Pattern3;
 
+import java.util.Scanner;
+
 public class HollowTri {
     public static void main(String[] args) {
-        int len = 6;
+        // int len = 6;
+
+        Scanner sc = new Scanner(System.in);
+        int len = sc.nextInt();
 
         // ◮
         for (int i = 1; i <= len; i++) {
@@ -37,5 +42,7 @@ public class HollowTri {
                 }
             }
         }
+
+        sc.close();
     }
 }
