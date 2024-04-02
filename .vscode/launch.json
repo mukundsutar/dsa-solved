@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "selectionSort",
+            "request": "launch",
+            "mainClass": "Brainstorm_Force_Practice.selectionSort",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "bubbleSort",
+            "request": "launch",
+            "mainClass": "Brainstorm_Force_Practice.bubbleSort",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "TechMahindra_Practice.Classes3.Main",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "HollowTri",
             "request": "launch",
             "mainClass": "TechMahindra_Practice.Pattern3.HollowTri",
